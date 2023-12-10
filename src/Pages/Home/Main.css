@@ -1,45 +1,102 @@
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('/public/Fonts/Oswald/static/Oswald-Bold.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
     font-family: 'Rubik';
-    src: url('/public/Fonts/Rubik/static/Rubik-Bold.ttf') format('truetype');
-    font-weight: 700; 
-    font-style: normal;
-  }
-
+    src: url(/public/Fonts/Rubik/static/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(/public/Fonts/Comfortaa/static/Comfortaa-Light.ttf);
+}
 
 .main{
-    padding-top: 100px;
-    background-color: rgba(186, 169, 119, 0.728);
-}
-
-.stats{
-    display: flex;
-    justify-content: space-around;
-}
-
-.stat .big{
-    font-size: 12rem;
-    font-weight: 1000;
-    font-style: bold;
-    font-family:'Oswald';
-    margin: -2px;
-    color: rgb(34, 34, 34);
-}
-
-.stat.one {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
 }
 
-.stat.one .small{
-    text-align: right;
-    margin-top: 0;
+.categories{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    background-blend-mode:multiply;
+    backdrop-filter: blur(100%);
+    padding: 40px;
+    padding-top: 0;
+    width: 1200px;
+}
+
+.main-div-1{
+    border-radius: 5px;
+    text-align: center;
+    z-index: 2;
+    margin-top: -90px;
+    background-color: #655f5bdb;
+    backdrop-filter: blur(15px);
+}
+
+.title{
+    margin: 0;
+}
+.title h2{
+    color: rgb(225, 225, 222);
+    font-size: 2rem;
+}
+.div-11{
+    background-color: #fefefe;
+    width: 325px;
+    margin: 10px;
+    border-radius: 6px;
+    display: flex;
+    min-height: 350px;
+    flex-direction: column;
+    text-align: center;
+}
+.div-11 h2{
+    color: rgb(35, 35, 35);
+    font-size: 23px;
+}
+
+.cat-btn{
+    width: 100%;
+    height: 50px;
+    font-family: 'Rubik';
+    font-size: large;
+    color: rgb(56, 56, 56);
+    border: 0;
+    background-color: #ffffff;
+    border-bottom: 0.5px solid rgb(56, 56, 56);
+}
+
+.cat-btn:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.cat-btn:last-child{
+    border-bottom: 0;
+    border-radius: 6px;
+}
+
+.additional-contents{
+    margin: 50px;
+}
+
+.how-it-works, .faqs{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+.how-it-works .content, .faqs .content{
+    font-family: 'Comfortaa';
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    width: 600px;
+    padding: 100px;
+    padding-top: 50px;
+}
+
+.how-it-works img{
     margin-right: 50px;
 }

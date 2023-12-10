@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('/public/Fonts/Oswald/static/Oswald-Bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    src: url('/public/Fonts/Rubik/static/Rubik-Bold.ttf') format('truetype');
+    font-weight: 700; 
+    font-style: normal;
+  }
+
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat .big{
+    font-size: 17rem;
+    font-weight: 1000;
+    font-style: bold;
+    font-family:'Oswald';
+    margin: -2px;
+    color: rgb(34, 34, 34);
+}
+
+.stat.one {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat.one .small{
+    text-align: right;
+    margin-top: 0;
+    margin-right: 50px;
+}
