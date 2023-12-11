@@ -1,5 +1,6 @@
 import React from 'react';
 import Stats from './Stats';
+import Jobs from './Jobs';
 import './Main.css';
 
 const Main = () => {
@@ -49,6 +50,7 @@ const Main = () => {
                 </div>
             </div>
             <div className='additional-contents'>
+                <Jobs />
                 <div className='newsfeed'>
                     <section className="news-feed">
                         <h2>Industry News Feed</h2>
