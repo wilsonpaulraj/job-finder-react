@@ -24,7 +24,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`nav-bar ${scrolled==1?'scrolled-1':''} ${scrolled==2?'scrolled-2':''}`}>
+    <nav className={`nav-bar ${scrolled===1?'scrolled-1':''} ${scrolled===2?'scrolled-2':''}`}>
       <ul className='nav-list'>
         <li className='nav-item'>
           <img src="\images\logo.png" width="50px" height="50px" alt="Logo" />

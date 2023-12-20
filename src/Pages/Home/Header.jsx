@@ -18,7 +18,11 @@ const Header = () => {
         <Navbar />
         <div className="div-1-1">
           <div className="div-1">
-            <h1>
+            <h1 style={{
+              WebkitTextStroke: '2px black',
+              textStroke: '2px black',
+              color: 'white'
+            }}>
               Find a job you enjoy doing, and you will never have to work a day in your life !
             </h1>
           </div>

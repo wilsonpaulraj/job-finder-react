@@ -1,6 +1,8 @@
 import React from 'react';
 import Stats from './Stats';
 import Jobs from './Jobs';
+import TopCompanies from './TopCompanies';
+import EmployeeSpotlight from './EmployeeSpotlight';
 import './Main.css';
 
 const Main = () => {
@@ -51,32 +53,10 @@ const Main = () => {
             </div>
             <div className='additional-contents'>
                 <Jobs />
-                <div className='newsfeed'>
-                    <section className="news-feed">
-                        <h2>Industry News Feed</h2>
-                        <div className="news-item">
-                            <img src="" alt="News" />
-                            <p>
-                                Stay informed with our dynamic Industry News Feed. Discover the pulse
-                                of evolving industries and job markets through real-time updates.
-                            </p>
-                        </div>
-                        {/* More news items go here */}
-                    </section>
-                </div>
-                <div className='employee-spotlight'>
-                    <section className="employee-spotlights">
-                        <h2>Employee Spotlights</h2>
-                        <div className="spotlight">
-                            <img src="" alt="Employee Spotlight" />
-                            <p>
-                                Dive into the heart of professional journeys with our Employee
-                                Spotlights.
-                            </p>
-                        </div>
-                        {/* More spotlight items go here */}
-                    </section>
-                </div>
+                <TopCompanies />
+                <EmployeeSpotlight />
+                
+                
                 <div className='how-it-works'>
                     <div className='image'>
                         <img src='/images/job.jpg' alt="reload"></img>

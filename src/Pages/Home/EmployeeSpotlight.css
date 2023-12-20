@@ -1,0 +1,35 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.employee-spotlight-component{
+  margin: auto;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.employee{
+  object-fit: cover;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 9/4;
+}
+
+.slider-btn{
+  all: unset;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.slider-btn > * {
+  stroke: wheat;
+  fill: black;
+}

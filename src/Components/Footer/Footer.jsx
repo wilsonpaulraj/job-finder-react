@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footer-bottom clearfix text-center">
         <div className="container">
           <p>
-            Copyright &copy; <a href="#">Jobs</a> 2017. Developed by{' '}
+            Copyright &copy; <a href="https://google.com">Jobs</a> 2017. Developed by{' '}
             <a href="http://themeregion.com/">ThemeRegion</a>
           </p>
         </div>
